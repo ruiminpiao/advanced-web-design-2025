@@ -13,7 +13,7 @@ h1 {
 }
 
 nav {
-  position: sticky;
+  position: fixed;
   top: 0;
   z-index: 1000;
   margin: 1.5em;
