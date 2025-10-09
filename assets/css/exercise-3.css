@@ -135,7 +135,7 @@ body {
 .nav-link:hover,
 .nav-link.active {
   background: var(--color-primary);
-  color: var(--white);
+  color: var(--accent);
 }
 
 /* ===== STYLE QUERIES: CONTEXTUAL COMPONENT ADAPTATION ===== */
@@ -308,31 +308,31 @@ body {
     flex-direction: column;
     grid-column: span 1;
   }
+}
 
-  .project-image-container {
-    grid-row: 1;
-  }
+.project-image-container {
+  grid-row: 1;
+}
 
-  .project-overlay {
-    grid-row: 2;
-  }
+.project-overlay {
+  grid-row: 2;
+}
 
-  .project-info h3 {
-    grid-row: 3;
-  }
+.project-info h3 {
+  grid-row: 3;
+}
 
-  .project-info p {
-    grid-row: 4;
-  }
+.project-info p {
+  grid-row: 4;
+}
 
-  .project-tags {
-    grid-row: 5;
-    align-self: end;
-  }
+.project-tags {
+  grid-row: 5;
+  align-self: end;
 }
 
 /* ===== CONTAINER QUERIES ===== */
-@container section-container (max-width: 600px) {
+@container section-container (min-width: 600px) {
   .project-card {
     display: flex;
     flex-direction: row;
@@ -592,7 +592,7 @@ body {
 }
 
 /* ===== CONTAINER QUERIES FOR IMAGES ===== */
-@container section-container (max-width: 600px) {
+@container section-container (min-width: 600px) {
   .about-content {
     grid-template-columns: 1fr;
     text-align: center;
@@ -662,12 +662,12 @@ body {
   .profile-image {
     max-width: 300px;
   }
+}
 
-  .project-image {
-    height: 160px;
-  }
+.project-image {
+  height: 160px;
+}
 
-  .profile-image {
-    max-width: 200px;
-  }
+.profile-image {
+  max-width: 200px;
 }

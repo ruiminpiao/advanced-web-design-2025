@@ -2,6 +2,18 @@
 
 _Critical Coding for a Better Living._
 
+**Author:** Ruimin Piao, Graphic and Multimedia Design Student
+
+### License
+
+- **Code:** MIT - see 'LICENSE-CODE'
+- **Content:** CC BY-NC 4.0 - see 'LICENSE-CONTENT'
+  _Unless otherwise indicated._
+
+© 2025 Ruimin Piao, Graphic and Multimedia Design Student · ORCID: <https://orcid.org/0000-0001-6862-9081>
+
+[See the website here](https://ruiminpiao.github.io/advanced-web-design-2025/)
+
 **Build a real, accessible, multilingual site—commit every week.**
 
 This repository is the **starting point for each student’s personal project** in the WEB ATELIER (UDIT) framework. While `web-foundations` provides the canonical lessons and `professor-course-template` manages the class instance, the **Student Project Template** is where each student designs and develops their own site. Every week, students commit progress here — _one student · one repo · one project · one commit per class_.
@@ -89,5 +101,3 @@ student-project-template/
 - Markdown Guide – [https://www.markdownguide.org](https://www.markdownguide.org)
 - YAML Introduction – [https://yaml.org/start.html](https://yaml.org/start.html)
 - Schema.org / JSON-LD – [https://schema.org](https://schema.org)
-
-© 2025 Rubén Vega Balbás, PhD — WEB ATELIER (UDIT) · ORCID: <https://orcid.org/0000-0001-6862-9081>
