@@ -172,7 +172,7 @@ h3 {
 }
 
 h4 {
-  font-size: 17pt;
+  font-size: 14pt;
   margin-bottom: 10px;
   color: #799436;
 }
@@ -196,6 +196,12 @@ h4 {
   width: 75%;
   height: auto;
   border-radius: 5px;
+}
+
+.image p {
+  font-size: 9pt;
+  text-align: right;
+  color: #799436;
 }
 
 /*Excellence Criteria Table*/
@@ -400,6 +406,11 @@ footer p {
     margin-right: 3px;
   }
 
+  .image p {
+  font-size: 8pt;
+  text-align: right;
+  }
+
   .excellencecriteria {
     padding: 0 4vw;
   }
@@ -590,6 +601,10 @@ footer p {
     margin-right: 3px;
   }
 
+  .image p {
+    font-size: 9pt;
+    text-align: right;
+  }
   .excellencecriteria {
     padding: 0 4vw;
   }
