@@ -1,7 +1,3 @@
-@import url("http://meyerweb.com/eric/tools/css/reset/reset.css"); /* CSS Reset for browser compatibility */
-@import url("style.css"); /* Main styles */
-@import url(sow.css);
-@import url(exercise-1.css);
-@import url(exercise-2.css);
-@import url(exercise-3.css);
-@import url(types.css);
+@import url('http://meyerweb.com/eric/tools/css/reset/reset.css'); /* CSS Reset for browser compatibility */
+@import url('types.css');
+@import url('style.css'); /* Main styles */
