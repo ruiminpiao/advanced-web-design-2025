@@ -29,6 +29,37 @@
     <a href="#main" class="skip-link">Skip to main content</a>
 
     <header>
+      <nav>
+				<ul>
+					<li><a href="#">Home</a></li>
+					<li><a href="#">Features</a></li>
+					<li><a href="./responsive/exercise-1.html">Responsive Design</a></li>
+					<li><a href="./responsive/exercise-2.html">Responsive Design 2</a></li>
+					<li><a href="./animations/index.html">Animations</a></li>
+				</ul>
+			</nav>
+			<!--
+				Theme Toggle: Pedagogical Explanation
+
+				This form provides a CSS-only theme toggle. It uses three radio inputs for 'Auto,' 'Light,' and 'Dark' themes. 
+				Each input has a unique id, and the corresponding labels serve as clickable toggle buttons.
+				- All inputs are 'hidden' to show only the styled label buttons.
+				- The checked input determines the selected theme. 
+				- Modern CSS (see site.css) uses :root:has(#theme-light:checked), etc., to set theme variables.
+				- "Auto" means the site will follow the user's system preference (light/dark).
+				- "Light" and "Dark" force the explicit color theme, regardless of system setting.
+
+				This approach does not require JavaScript. All logic is handled in CSS using the 'has()' selector and custom properties.
+			-->
+			<form class="cluster" style="justify-content: flex-end; margin-top: var(--space-2)" aria-label="Theme">
+				<input type="radio" name="theme" id="theme-auto" hidden checked />
+				<input type="radio" name="theme" id="theme-light" hidden />
+				<input type="radio" name="theme" id="theme-dark" hidden />
+				<label for="theme-auto" class="btn btn--ghost" style="height: auto; padding: 0.4rem 0.6rem">Auto</label>
+				<label for="theme-light" class="btn btn--ghost" style="height: auto; padding: 0.4rem 0.6rem">Light</label>
+				<label for="theme-dark" class="btn btn--ghost" style="height: auto; padding: 0.4rem 0.6rem">Dark</label>
+			</form>
+      <br>
       <div class="container intro">
         <h3>My Web Project</h3>
         <p class="textstyle">Student Project - WEB ATELIER (UDIT)</p>
