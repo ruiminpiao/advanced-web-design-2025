@@ -1,0 +1,302 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+        url('https://ik.imagekit.io/ruiminpiao/IMG_3060.PNG?updatedAt=1762280322051');
+}
+
+.header {
+    background: linear-gradient(135deg, #341758 0%, #2a0832 100%);
+    color: white;
+    padding: 2rem;
+    text-align: center;
+}
+
+/* Parallax background with fixed attachment */
+.parallax-bg {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+        url('https://ik.imagekit.io/ruiminpiao/bcn%20pink.png?updatedAt=1762278408959');
+    min-height: 400px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 2rem;
+    font-weight: bold;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.glass-nav {
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(16px) saturate(180%);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 50px;
+    padding: 1rem 2rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    max-width: 600px;
+    margin: 2rem auto;
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.2);
+}
+
+.container {
+    max-width: 1400px;
+    margin: 3rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    gap: 2rem;
+    margin-bottom: 3rem;
+}
+
+.glass-card {
+    background: rgba(255, 116, 169, 0.15);
+    backdrop-filter: blur(12px) saturate(150%);
+    -webkit-backdrop-filter: blur(12px) saturate(150%);
+    border: 1px solid rgba(255, 164, 210, 0.4);
+    border-radius: 20px;
+    padding: 2rem;
+    color: rgb(205, 67, 88);
+    box-shadow: 0 8px 32px 0 rgba(118, 29, 54, 0.37), inset 0 1px 0 0 rgba(183, 124, 156, 0.5);
+    transition: all 0.3s ease;
+    position: relative;
+    overflow: hidden;
+}
+
+.glass-card h2 {
+    margin-bottom: 1rem;
+    font-size: 1.8rem;
+    font-weight: 700;
+}
+
+.glass-card p {
+    margin-bottom: 1rem;
+    line-height: 1.8;
+    text-shadow: 1px 1px 2px rgba(102, 23, 60, 0.3);
+}
+
+.glass-card-dark {
+    background: rgba(190, 0, 76, 0.4);
+    backdrop-filter: blur(16px) saturate(180%);
+    -webkit-backdrop-filter: blur(16px) saturate(180%);
+    border: 1px solid rgba(203, 71, 126, 0.2);
+}
+
+.glass-button {
+    background: rgba(196, 20, 93, 0.2);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border: 1px solid rgba(149, 34, 88, 0.3);
+    border-radius: 12px;
+    padding: 1rem 2rem;
+    color: white;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    display: inline-block;
+    margin-top: 1rem;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+}
+
+.glass-card-light {
+    background: rgba(179, 12, 87, 0.25);
+    backdrop-filter: blur(20px) brightness(110%);
+    -webkit-backdrop-filter: blur(20px) brightness(110%);
+}
+
+
+
+/* Regular scrolling content (foreground) */
+.content {
+    background: rgb(28, 16, 57);
+    padding: 3rem 2rem;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.content h2 {
+    color: #667eea;
+    margin-bottom: 1rem;
+}
+
+.content p {
+    margin-bottom: 1rem;
+    color: #efefef;
+}
+
+.comparison {
+    margin-top: 2rem;
+    padding: 1.5rem;
+    background: #f8f9fa;
+    border-left: 4px solid #667eea;
+    border-radius: 4px;
+}
+
+.code-box {
+    background: #2d3748;
+    color: #a0aec0;
+    padding: 1.5rem;
+    border-radius: 8px;
+    margin: 1rem 0;
+    overflow-x: auto;
+}
+
+.code-box code {
+    font-family: 'Courier New', monospace;
+    font-size: 0.9rem;
+}
+
+.reflection {
+    background: #fef3c7;
+    padding: 1.5rem;
+    border-radius: 8px;
+    margin: 2rem 0;
+    border-left: 4px solid #f59e0b;
+}
+
+.reflection strong {
+    color: #92400e;
+}
+
+/* Non-parallax comparison section */
+.normal-bg {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+        url('https://ik.imagekit.io/ruiminpiao/IMG_8287.jpg?updatedAt=1762278695584');
+    min-height: 400px;
+    background-attachment: scroll;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 2rem;
+    font-weight: bold;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+/* JavaScript-based Parallax Section */
+.parallax-js-section {
+    position: relative;
+    height: 600px;
+    overflow: hidden;
+    background: linear-gradient(to bottom, #f93c7e, #ff92b4, #b7304f);
+}
+
+.parallax-layer {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    will-change: transform;
+}
+
+.layer-back {
+    font-size: 8rem;
+    opacity: 0.2;
+    color: #667eea;
+    font-weight: bold;
+}
+
+.layer-middle {
+    font-size: 4rem;
+    opacity: 0.5;
+    color: #f59e0b;
+    font-weight: bold;
+}
+
+.layer-front {
+    font-size: 2rem;
+    color: white;
+    font-weight: bold;
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7);
+}
+
+/* Image layers for parallax */
+.parallax-image-section {
+    position: relative;
+    height: 500px;
+    overflow: hidden;
+    background: #1a202c;
+}
+
+.image-layer {
+    position: absolute;
+    width: 100%;
+    height: 120%;
+    background-size: cover;
+    background-position: center;
+    will-change: transform;
+}
+
+.image-layer-1 {
+    background-image: url('https://ik.imagekit.io/ruiminpiao/1%20(1).png?updatedAt=1762278950899');
+    z-index: 1;
+}
+
+.image-layer-2 {
+    background-image: url('https://ik.imagekit.io/ruiminpiao/3.png?updatedAt=1762278951184');
+    z-index: 2;
+}
+
+.image-layer-3 {
+    background-image: url('https://ik.imagekit.io/ruiminpiao/2%20(1).png?updatedAt=1762278951258');
+    z-index: 3;
+}
+
+.speed-indicator {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: rgba(0, 0, 0, 0.7);
+    color: white;
+    padding: 1rem 2rem;
+    border-radius: 8px;
+    z-index: 10;
+    font-size: 0.9rem;
+}
+
+@media (max-width: 768px) {
+
+    .parallax-bg,
+    .normal-bg {
+        background-attachment: scroll;
+        min-height: 300px;
+        font-size: 1.5rem;
+    }
+
+    .content {
+        padding: 2rem 1rem;
+    }
+
+    .parallax-js-section,
+    .parallax-image-section {
+        height: 400px;
+    }
+
+    .layer-back {
+        font-size: 4rem;
+    }
+
+    .layer-middle {
+        font-size: 2rem;
+    }
+
+    .layer-front {
+        font-size: 1.5rem;
+    }
+}
