@@ -270,6 +270,37 @@ body {
     font-size: 0.9rem;
 }
 
+.demo-area {
+    height: 140px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: white;
+    border-radius: 6px;
+    padding: 1rem;
+    perspective: 1000px;
+}
+
+/*CSS web animations*/
+.transform-box {
+    width: 100px;
+    height: 100px;
+    background: linear-gradient(135deg, #4e6beb, #8f1b44);
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-weight: 600;
+    cursor: pointer;
+    transition: transform 0.5s ease;
+}
+
+.transform-box:hover {
+    transform: scale(0.8);
+}
+
+/*Media queries*/
 @media (max-width: 768px) {
 
     .parallax-bg,
